@@ -1,0 +1,293 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+
+.box{
+  background-size: cover;
+  border-radius: 50%;
+  margin: 0 auto;
+  width: 16%;
+  padding-top: 25px;
+}
+
+
+.foto-personal {
+  display: flex;
+  justify-content: center;
+  align-items: center !important;
+  border-radius: 50%;
+}
+
+.foto-personal img{
+  width: 41%;
+}
+
+.contenedor {
+  align-items: center;
+  text-align: center;
+  width: 100%;
+}
+
+
+header{
+  background: url("fondo4.png");
+  background-size:cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  opacity: 0.9;
+  height: 100%;
+  max-height: 550px;
+}
+
+
+h1 {
+  font-size: 60px;
+  margin: 0;
+}
+
+h2 {
+  font-size: 25px;
+}
+
+h3 {
+  font-size: 43px;
+  text-align: center;
+  margin-top: 15;
+  margin-bottom: 15;
+}
+
+.contenedor-titulo {
+  align-items: center;
+  width: 100%;
+  padding-bottom: 25px;
+  color: #c2c2c2;
+}
+ 
+.contenedor-titulo h1{
+  font-size: 40px;
+}
+
+.contenedor-titulo h2{
+  font-size: 18px;
+  margin-top:0 ;
+  margin-bottom: 25px;
+}
+
+.contenedor-contacto{
+  display:flex;
+  align-items: center;
+  justify-content: left;
+  margin: auto;
+  height: 40px;
+}
+
+.logo-contacto{
+  justify-content: center;
+  align-items: center;
+  max-width: 20px;
+  margin: 0;
+}
+
+.logo{
+  width: 70px;
+}
+
+
+
+#sobre-mi .texto {
+  align-items: center;
+  text-align: center;
+  width: 100%;
+}
+
+.columna-txt {
+  text-align:center;
+  margin-left: 30px;
+  margin-right: 30px;
+  line-height: 2,5;
+  font-size: 18px;
+}
+
+.columna {
+  align-items: center;
+  margin-left: 30px;
+  margin-right: 30px;
+  max-width: 45%;
+  display: flex;
+  flex: 0 0 50%;
+}
+
+.card {
+    display: flex;
+    width: 80%;
+    margin-bottom: 20px;
+    box-shadow: 0px 5px 25px 0px rgba(0, 0, 0, 0.2);
+    align-items: center;
+    position:relative;
+    margin: auto;
+}
+
+.row {
+  display:flex;
+  justify-content:space-between;
+  margin-top: 2px;
+  width: 550px;
+}
+
+.col-sm-4 {
+  flex: 0 0 33.333333%;
+  max-width: 33.333333%;
+}
+
+.col-sm-8 {
+  flex: 0 0 66.666667%;
+  max-width: 66.666667%;
+}
+
+.datosper {
+  padding: 20px;
+  width: 100%;
+}
+
+.logo-exp {
+  padding: 0;
+  align-items: center;
+  display: flex;
+}
+
+.texto-exp {
+  max-width: 75%;
+  padding: 0;
+}
+
+.cont-experiencia {
+  display: flex;
+  justify-content: space-around;
+  color:#212f3d;
+  margin-bottom: 30px;
+  box-shadow: 0px 5px 25px 0px rgba(0, 0, 0, 0.2);
+  padding: 15px;
+  width: 90%;
+  margin: auto;
+  margin-top: 25px;
+}
+
+.cont-caja{
+    justify-content: space-around;
+    color:#212f3d;
+    margin-bottom: 30px;
+    box-shadow: 0px 5px 25px 0px rgba(0, 0, 0, 0.2);
+    padding: 15px;
+    width: 22%;
+    margin: auto;
+    margin-top: 30px;
+    align-content: center;
+}
+
+.icono {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 100px;
+}
+
+.texto-exp h4 {
+  font-size: 22px;
+  margin: 0;
+}
+
+.texto-exp h5 {
+  font-size: 14px;
+  margin: 0;
+}
+
+#contacto {
+  text-align: center;
+  align-items: center;
+  height: 150px;
+  margin-top: 0;
+  padding: 10px;
+}
+
+.espacio{
+  height: 60px;
+}
+
+
+.menu {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  color: #c2c2c2;
+  width: 100%;
+  }
+
+
+ul {
+  display: flex;
+}
+
+a{
+  text-decoration: none;
+  color: white;
+}
+
+li{
+  list-style: none;
+  margin-right: 25px;
+}
+
+#whatsapp {
+  position: fixed;
+  top: 80%;
+  right: 1%;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+  /* BOTON */
+
+.ov-btn-grow-box {
+  background: #0a5476; /* color de fondo */
+  color:   white; /* color de fuente */
+  /*border: 2px solid #4741d7; tamaño y color de borde */
+  padding: 9px 20px;
+  border-radius: 3px; /* redondear bordes */
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+  display: inline-block;
+}
+.ov-btn-grow-box:hover {
+  color:  #0a5476/* color de fuente hover */
+}
+.ov-btn-grow-box::after {
+  content: "";
+  background: white;; /* color de fondo hover */
+  /*border: 2px solid #4741d7;*/
+  position: absolute;
+  z-index: -1;
+  padding: 9px 20px;
+  display: block;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  transform: scale(0, 0);
+  transition: all 0.3s ease;
+}
+
+.ov-btn-grow-box:hover::after {
+  transition: all 0.3s ease-out;
+  transform: scale(1, 1);
+}
+
+.linkedin {
+  width: 4%;
+}
+
